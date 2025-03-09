@@ -128,6 +128,21 @@ img{
     outline: none;
 }
 
+.showcase::before,
+.showcase::after {
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left:0;
+    background: var(--text-color);
+    transform: skewY(-1deg);
+    -webkit-transform: skewY(-1deg);
+    -moz--transform: skewY(-1deg);
+    -ms-transform: skewY(-1deg);
+
+}
 
 /* Utilities */
 
@@ -154,6 +169,15 @@ img{
     color: var(--text-color);
     border: none;
     border-radius: 5px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px #fff solid;
+}
+
+.btn:hover{
+    transform: scale(0.98);
 }
 
 .flex{
