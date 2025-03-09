@@ -145,12 +145,16 @@ img{
 }
 
 /* Stats */
+
 .stats{
     padding-top: 100px;
-    color: #333;
+    color: var(--primary-color);
 }
 
-.stats h3 {
-    color:#333;
+.stats h3,h1, h2 {
+    color:var(--primary-color);
 }
 
+.text-secondary{
+    color: var(--primary-color);
+}
