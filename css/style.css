@@ -258,6 +258,13 @@ img{
     }
 }
 
+/*Features */
+.features-head img{
+    width: 200px;
+    justify-self: flex-end;
+}
+
+
 /* Mobile */
 @media(max-width: 500px){
     .nav{
