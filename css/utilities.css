@@ -68,6 +68,25 @@
     background-color: var(--light-color);
     color: #333;
 }
+
+/*text color*/
+.text-primary{
+    color: var(--primary-color);
+}
+
+.text-secondary{
+  color: var(--primary-color);
+}
+
+.text-dark{
+   color: var(--dark-color);
+}
+
+.text-light{
+    color: var(--light-color);
+  
+}
+
 /* Text Sizes*/
 
 .lead{
@@ -198,4 +217,28 @@
 
 .p-5{
     padding: 4rem;
+}
+
+
+/*Alert*/
+
+.alert{
+   background-color: var(--light-color-color); 
+   padding: 10px 20px;
+   font-weight: bold;
+   margin: 15px 0;
+}
+
+.alert i{
+    margin-right: 10px;
+}
+
+.alert-success{
+    background-color: var( --success-color);
+    color: var(--text-color);
+}
+
+.alert-error{
+    background-color: var( --error-color);
+    color: var(--text-color);
 }
